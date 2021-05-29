@@ -6,5 +6,7 @@
 with open("deneme.txt","r") as file:
     list1 = file.readlines()
 
+file.close()
+
 
 print(list1)
