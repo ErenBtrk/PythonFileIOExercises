@@ -7,4 +7,6 @@ with open("exercise2.txt","r") as file:
     for index in range(3):
         print(file.readline(),end="")
 
+file.close()
+
 
