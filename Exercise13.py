@@ -12,4 +12,8 @@ with open("copy.txt","w") as file:
     file.write(str(*content))
 file.close()
 
+#####################################################################################
+
+# from shutil import copyfile
+# copyfile('test.py', 'abc.py')
 
